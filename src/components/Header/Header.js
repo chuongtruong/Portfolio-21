@@ -12,8 +12,6 @@ const Header = () =>  (
         <a style={{display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px'}}>
         {/* DiCssdeck is an icon from react-icons */}
           <DiCssdeck size="3rem"/> <Span>Portfolio</Span>
-          <DiCssdeck size="3rem"/> <Span>Portfolio</Span>
-          <DiCssdeck size="3rem"/> <Span>Portfolio</Span>
         </a>
       </Link>
     </Div1>
