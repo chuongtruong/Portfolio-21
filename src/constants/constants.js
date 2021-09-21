@@ -41,9 +41,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: '2018 SUMMER', text: 'Started my passion in computer at Mission College', },
+  { year: '2019 SPRING', text: 'Worked as an administrive assistant at a circuit board design company', },
+  { year: '2020 FALL', text: 'Transfered to San Jose State University with GPA of 3.7', },
+  { year: '2021 SPRING', text: 'Started to learn more about web development', },
 ];

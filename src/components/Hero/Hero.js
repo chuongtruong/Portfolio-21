@@ -12,10 +12,11 @@ const Hero = (props) => (
        It's me, Chuong!
      </SectionTitle>
      <SectionText>
-      Welcome to my personal blog, I'm glad that you're here.
-      
+      Welcome to my personal blog, I'm glad that you're here.<br/>
+      I'm skilled in full-stack web development and I do M.E.R.N stack !
+
      </SectionText>
-     <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+     <Button onClick={() => window.open("https://www.linkedin.com/in/chuong-truong-web-dev/", "_blank")}>Let's connect !</Button>
    </LeftSection>
  </Section>
 );

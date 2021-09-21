@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <br/>
     <SectionTitle> Technologies </SectionTitle>
     <SectionText>
-      I've worked with React, NodeJS, ExpressJS
+      Some Technologies that I've recently worked on.
     </SectionText>
     <List>
       <ListItem>
@@ -19,7 +19,7 @@ const Technologies = () =>  (
             Front-End
           </ListTitle>
           <ListParagraph>
-            Experience with React.js
+            Experience with Javascript (ES6)<br/> Framework: React.js, NextJS, Apollo Client,
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -31,7 +31,7 @@ const Technologies = () =>  (
             Back-End
           </ListTitle>
           <ListParagraph>
-            Experience with NodeJS and Databases
+            Experience with NodeJS, ExpressJS<br/> Framework: Apollo Server, Keystone <br/>Database: MongoDB and MySql
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,7 +43,9 @@ const Technologies = () =>  (
             UI/UX
           </ListTitle>
           <ListParagraph>
-            Experience with Figma
+            Experience with 
+            <br/ >Framework: Bootstrap, SemanticUI, Material UI
+            <br/ >Tools: Adobe XD,  Figma, and Adobe XD
           </ListParagraph>
         </ListContainer>
       </ListItem>
