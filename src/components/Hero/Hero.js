@@ -8,11 +8,12 @@ const Hero = (props) => (
  <Section row nopadding>
    <LeftSection>
      <SectionTitle main center>
-       Welcome To <br/>
-       My Personal Porfolio
+       Hello, <br/>
+       It's me, Chuong!
      </SectionTitle>
      <SectionText>
-       My introduction goes here.
+      Welcome to my personal blog, I'm glad that you're here.
+      
      </SectionText>
      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
    </LeftSection>

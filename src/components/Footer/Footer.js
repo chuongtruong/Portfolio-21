@@ -25,23 +25,26 @@ const Footer = () => {
 
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:chuong.works@gmail.com">chuong.works@gmail.com</LinkItem>
+          <LinkItem href="mailto:chuong.works@gmail.com">
+            chuong.works@gmail.com
+          </LinkItem>
         </LinkColumn>
         <SocialIconsContainer>
           <CompanyContainer>
-            <Slogan>Paulo Coelho — 'And, when you want something, all the universe conspires in helping you to achieve it.'</Slogan>
+            <Slogan>
+              Paulo Coelho — 'And, when you want something, all the universe
+              conspires in helping you to achieve it.'
+            </Slogan>
           </CompanyContainer>
           <SocialContainer>
-          <SocialIcons href="https://github.com">
-            <AiFillGithub size="3rem"></AiFillGithub>
-          </SocialIcons>
-          <SocialIcons href="https://github.com">
-            <AiFillInstagram size="3rem"></AiFillInstagram>
-          </SocialIcons>
-          <SocialIcons href="https://github.com">
-            <AiFillLinkedin size="3rem"></AiFillLinkedin>
-          </SocialIcons>
-        </SocialContainer>
+            <SocialIcons href="https://github.com/chuongtruong">
+              <AiFillGithub size="3rem"></AiFillGithub>
+            </SocialIcons>
+
+            <SocialIcons href="https://www.linkedin.com/in/chuong-truong-web-dev/">
+              <AiFillLinkedin size="3rem"></AiFillLinkedin>
+            </SocialIcons>
+          </SocialContainer>
         </SocialIconsContainer>
       </LinkList>
     </FooterWrapper>

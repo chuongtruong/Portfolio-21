@@ -11,7 +11,7 @@ const Header = () =>  (
       <Link href="/">
         <a style={{display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px'}}>
         {/* DiCssdeck is an icon from react-icons */}
-          <DiCssdeck size="3rem"/> <Span>Portfolio</Span>
+          <DiCssdeck size="3rem"/> <Span>CHUONG TRUONG</Span>
         </a>
       </Link>
     </Div1>
@@ -19,7 +19,7 @@ const Header = () =>  (
     <Div2>
       <li>
         <Link href="#projects">
-          <NavLink>Project</NavLink>
+          <NavLink>Projects</NavLink>
         </Link>
       </li>
 
@@ -37,19 +37,14 @@ const Header = () =>  (
     </Div2>
 
     <Div3>
-      <SocialIcons href="https://github.com">
+      <SocialIcons href="https://github.com/chuongtruong">
         <AiFillGithub size="3rem"></AiFillGithub>
       </SocialIcons>
 
-      <SocialIcons href="https://github.com">
-        <AiFillInstagram size="3rem"></AiFillInstagram>
-      </SocialIcons>
-
-      <SocialIcons href="https://github.com">
+      <SocialIcons href="https://www.linkedin.com/in/chuong-truong-web-dev/">
         <AiFillLinkedin size="3rem"></AiFillLinkedin>
       </SocialIcons>
     </Div3>
-
   </Container>
 );
 
