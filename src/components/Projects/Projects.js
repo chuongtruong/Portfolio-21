@@ -24,6 +24,7 @@ const Projects = () => (
           </CardInfo>
           <div>
             <TitleContent>
+              <br/>
               Stack
             </TitleContent>
             <TagList>

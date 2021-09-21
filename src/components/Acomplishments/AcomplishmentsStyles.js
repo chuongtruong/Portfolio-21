@@ -25,7 +25,7 @@ export const Boxes = styled.div`
 export const Box = styled.div`
   background: #212D45;
   border-radius: 12px;
-  height: 144px;
+  height: 170px;
   padding: 24px;
   @media ${props => props.theme.breakpoints.lg} {
     height: 210px;
@@ -48,39 +48,36 @@ export const Box = styled.div`
 `
 export const BoxNum = styled.h5`
   font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 40px;
+  font-weight: 300;
+  font-size: 20px;
+  height: 100px;
   letter-spacing: 0.01em;
   color: #FFFFFF;
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 15px;
+    height: 80px;
   }
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 12px;
+    height: 60px;
 }
 `
 
 export const BoxText = styled.p`
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 10px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;
-    line-height: 20px;
   };
 
   @media ${props => props.theme.breakpoints.sm} {
     font-size: 10px;
-    line-height: 14px;
   }
 `
 
@@ -132,3 +129,26 @@ export const IconContainer = styled.div`
     justify-content: space-between;
   }
 `
+
+export const ExternalLinks = styled.a`
+position: relative;
+top: -30px;
+color:#d4c0c0;
+font-size: 10 px;
+padding:1rem 1.5rem;
+background: #6b3030;
+border-radius: 15px;
+transition: 0.5s;
+&:hover{
+  background: #801414;
+}
+@media ${props => props.theme.breakpoints.md}{
+    font-size: 10px;
+    top: -30px;
+  };
+
+  @media ${props => props.theme.breakpoints.sm} {
+    font-size: 10px;
+    top: -30px;
+  }
+`;

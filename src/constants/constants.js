@@ -1,43 +1,43 @@
 // for image, can put in public folder
 
 export const projects = [
-  {
-    title: 'MERN Memories',
+    {
+      title: 'E-Commerce (On going project)',
+      description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      image: '/images/2.png',
+      tags: ['React', 'JavaScript'],
+      source: 'https://google.com',
+      visit: 'https://google.com',
+      id: 0,
+    },
+    {
+    title: 'Memories',
     description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
+      image: '/images/mern.png',
  
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
-  },
-  {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
+      tags: ['Mongo', 'Express', 'React', 'Node', 'GraphQL'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Unichat',
+    description: "Simple chat application",
+    image: '/images/4.jpg',
+    tags: ['React', 'ChatEngine', 'Firebase'],
+    source: 'https://github.com/chuongtruong/chat-application',
+    visit: 'https://ct-chat-application.netlify.app/',
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'BrickBreaker-v1.1',
+    description:"For this project, we re-make a very well-known game, and I believe many of you have already played it before; however, in our version, we want to bring to you a totally different playing experience and three levels of difficulty that I don’t think you can find in other versions",
+    image: '/images/4.png',
+    tags: ['Java', 'JavaFX'],
+    source: 'https://github.com/chuongtruong/BrickBreaker-v1.1',
+    visit: 'https://github.com/chuongtruong/BrickBreaker-v1.1',
     id: 3,
-  },
+  }
 ];
 
 export const TimeLineData = [
