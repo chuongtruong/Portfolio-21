@@ -12,17 +12,17 @@ export const projects = [
     },
     {
     title: 'Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    description: "The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives. The app is build with one of the most popular tech stack MongoDB, Express, ReactJS, and NodeJS",
       image: '/images/mern.png',
  
       tags: ['Mongo', 'Express', 'React', 'Node', 'GraphQL'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://memories-merng.netlify.app/',
+    visit: 'https://https://github.com/chuongtruong/merng-social-media-app.com',
     id: 1,
   },
   {
     title: 'Unichat',
-    description: "Simple chat application",
+    description: "Simple chat application using ChatEngine API to allow 2 or more users chat and share photos.",
     image: '/images/4.jpg',
     tags: ['React', 'ChatEngine', 'Firebase'],
     source: 'https://github.com/chuongtruong/chat-application',

@@ -35,10 +35,10 @@ const Projects = () => (
           </div>
           <UtilityList>
             <ExternalLinks href={visit}>
-                Code
+                Demo
             </ExternalLinks>
             <ExternalLinks href={visit}>
-                Source
+                GitHub
             </ExternalLinks>
           </UtilityList>
          </BlogCard>
